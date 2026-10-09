@@ -1,0 +1,3 @@
+# data generation, rule baseline, metrics, tests (CPU)
+pytest>=8.0
+tokenizers>=0.15

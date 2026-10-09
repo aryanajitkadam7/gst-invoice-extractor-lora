@@ -1,0 +1,48 @@
+{
+  "test": {
+    "n": 300,
+    "json_valid": 1.0,
+    "field_accuracy_mean": 0.981388888888889,
+    "line_item_f1": 1.0,
+    "doc_exact": 0.7966666666666666,
+    "predicted_gstin_checksum_valid": 1.0,
+    "fields": {
+      "invoice_number": 1.0,
+      "invoice_date": 1.0,
+      "seller_name": 0.8766666666666667,
+      "seller_gstin": 1.0,
+      "buyer_name": 0.9,
+      "buyer_gstin": 1.0,
+      "place_of_supply": 1.0,
+      "taxable_value": 1.0,
+      "cgst": 1.0,
+      "sgst": 1.0,
+      "igst": 1.0,
+      "total": 1.0
+    },
+    "latency_ms_per_doc": 0.283
+  },
+  "test_hard": {
+    "n": 300,
+    "json_valid": 1.0,
+    "field_accuracy_mean": 0.4580555555555556,
+    "line_item_f1": 0.5033333333333333,
+    "doc_exact": 0.0,
+    "predicted_gstin_checksum_valid": 1.0,
+    "fields": {
+      "invoice_number": 0.0,
+      "invoice_date": 0.0,
+      "seller_name": 0.0,
+      "seller_gstin": 1.0,
+      "buyer_name": 0.0,
+      "buyer_gstin": 1.0,
+      "place_of_supply": 0.49666666666666665,
+      "taxable_value": 0.0,
+      "cgst": 1.0,
+      "sgst": 1.0,
+      "igst": 1.0,
+      "total": 0.0
+    },
+    "latency_ms_per_doc": 0.252
+  }
+}
